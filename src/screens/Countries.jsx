@@ -19,7 +19,7 @@ function Countries() {
     <div className='countries-container'>
       {
         countries.map((country) => (
-            <Country country={country} key={country.id} />
+            <Country country={country} key={country._id} />
         ))
       }
     </div>
