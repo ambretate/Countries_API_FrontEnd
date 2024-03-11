@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./components.Nav.jsx"
+import Nav from "./components/Nav.jsx"
 import Home from "./screens/Home.jsx"
 import Countries from "./screens/Countries.jsx"
 import CountriesCreate from "./screens/CountriesCreate.jsx"

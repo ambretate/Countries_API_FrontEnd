@@ -20,7 +20,7 @@ export const getCountry = async (id) => {
 
 export const createCountry = async (countryData) => {
   try {
-    const response = await api.put(`/countries/${id}, countryData`);
+    const response = await api.put("/countries", countryData);
     return response.data;
   } catch (error) {
     console.error("Error creating country", error);
@@ -29,7 +29,7 @@ export const createCountry = async (countryData) => {
 
 export const editCountry = async (id, countryData) => {
   try {
-    const response = await api.put(`/countries/${id}, countryData`);
+    const response = await api.put(`/countries/${id}`, countryData);
     return response.data;
   } catch (error) {
     console.error("Error edit country", error);
