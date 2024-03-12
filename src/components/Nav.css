@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #bfbda3;
+  height: 60px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navlink,
+.navlink:link,
+.navlink:visited {
+  padding: 10px 0;
+  color: #1c2621;
+}
+
+.navlink:hover {
+  color: #d97652;
+}

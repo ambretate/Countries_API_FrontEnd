@@ -1,0 +1,24 @@
+.home {
+  padding-left: 25rem;
+  padding-right: 25rem;
+}
+
+.headline {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #6e7346;
+}
+
+.sub-headline {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.welcome-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: justify;
+}

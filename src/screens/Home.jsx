@@ -1,16 +1,32 @@
-import React from 'react'
+import React from "react";
+import "./Home.css";
 
 function Home() {
   return (
-    <div>
-      <h1 className="headline">Countries</h1>
+    <div className="home">
+      <h1 className="headline">Flags, Facts, and Beyond:</h1>
+      <h2 className="sub-headline">
+        Essential Facts and Key Figures for Each Nation
+      </h2>
+      <p className="welcome-text">
+        Welcome to our comprehensive guide to countries, where we delve into the
+        fundamental elements that define nations across the globe. Uncover the
+        essential facts and figures that for each country, from population
+        statistics to linguistic diversity and flags. This website is a curated
+        repository of high-level information, offering a systematic exploration
+        of the key characteristics that distinguish one nation from another.
+        Whether you're a student of geopolitics, a trivia enthusiast, or simply
+        curious about the world, our platform is your go-to resource for gaining
+        insight into the essential details that make each country a unique
+        entity on the global stage. Welcome to the ultimate destination for
+        country facts!
+      </p>
       <img
-        src="https://camo.githubusercontent.com/d7bbab46409e07af5ef42ee23d8c44041431f64750a691877d0a0fdcae204af8/68747470733a2f2f7777772e776f726c6461746c61732e636f6d2f75706c6f61642f66342f65302f34392f7368757474657273746f636b2d313636353235343830392e706e67"
-        alt="map of the world"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/World_Map_%28political%29.svg/2880px-World_Map_%28political%29.svg.png"
         width="800px"
       />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
