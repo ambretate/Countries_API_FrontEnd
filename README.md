@@ -13,7 +13,7 @@ The Flags, Facts and Beyond site is a reference site providing high level facts 
 <img src='https://github.com/ambretate/Countries_API_FrontEnd/blob/5ef02542165c62073136db792bb6af38c93a9bbc/public/images/countries-create.png'>
 
 ## Wireframes
-<img src=''>
+<img src='https://github.com/ambretate/Countries_API_FrontEnd/blob/f1bf74ecec1992ab43a9f31f63f69a1a288c8e18/public/images/countries-wireframe.png'>
 
 ## APIs
 - [Countries API](https://github.com/labandor/API-Project) by [labandor](https://github.com/labandor)
