@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { createCountry } from "../services/countries.js";
+import "./CountriesCreate.css"
 
 function CountriesCreate() {
   const [country, setCountry] = useState({
@@ -9,7 +10,7 @@ function CountriesCreate() {
     region: "",
     timezone: "",
     language: "",
-    population: 0,
+    population: Number,
     borders: [],
     flag: "",
   });
@@ -33,8 +34,8 @@ function CountriesCreate() {
   };
 
   return (
-    <div>
-      <h1>Add a country to the database</h1>
+    <div className="country-create">
+      <h1 className="country-create-title">Add a Country</h1>
       <form onSubmit={handleSubmit}>
         <input
             type="text"
@@ -87,7 +88,7 @@ function CountriesCreate() {
         />
         <input
             type="text"
-            placeholder="Flag Image (provide url of image address)"
+            placeholder="Flag Image (URL of image address)"
             name="flag"
             value={country.flag}
             onChange={handleChange}

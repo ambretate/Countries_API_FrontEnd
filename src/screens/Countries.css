@@ -41,3 +41,7 @@
   color: #d97652;
   font-size: 1.25rem;
 }
+
+a {
+    text-decoration: none;
+}

@@ -14,7 +14,7 @@ nav {
 .navlink:link,
 .navlink:visited {
   padding: 10px 0;
-  
+  color: #1c2621;
   text-decoration: none;
 }
 

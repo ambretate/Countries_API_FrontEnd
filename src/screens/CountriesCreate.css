@@ -1,0 +1,34 @@
+.country-create {
+    margin: auto;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #1c2621;
+    text-align: center;
+  }
+  
+  .country-create-title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #6e7346;
+  }
+
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 300px;
+  }
+
+  ::placeholder {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    color: #d97652;
+    padding: 15px;
+  }
+
+  button {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/World_Map_%28political%29.svg/2880px-World_Map_%28political%29.svg.png);
+  }
