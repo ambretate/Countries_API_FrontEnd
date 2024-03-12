@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { getCountries } from "../services/countries.js"
 import Country from "../components/Country.jsx"
+import "./Countries.css"
 
 
 function Countries() {
