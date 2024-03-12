@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import { getCountry, deleteCountry } from "../services/countries.js"
 import { Link, useParams, useNavigate } from "react-router-dom"
+import "./CountriesDetail.css"
 
 function CountriesDetail() {
     const [country, setCountry] = useState ({})
@@ -23,15 +24,15 @@ function CountriesDetail() {
     }
 
   return (
-    <div>
-        <h1>{country.name}</h1>
-        <img src={country.flag} alt={country.name} />
-        <p>{country.capital}</p>
-        <p>{country.region}</p>
-        <p>{country.language}</p>
-        <p>{country.population}</p>
-        <p>{country.borders}</p>
-        <p>{country.timezone}</p>
+    <div className="country-detail">
+        <h1 className="country-detail-name">{country.name}</h1>
+        <img className="country-detail-image" src={country.flag} alt={country.name} />
+        <p>Capital: {country.capital}</p>
+        <p>Region: {country.region}</p>
+        <p>Language: {country.language}</p>
+        <p>Pouplation: {country.population}</p>
+        <p>Borders: {country.borders}</p>
+        <p>Timezone: {country.timezone}</p>
         <div>
             <Link to={`/countries/${id}/edit`}>
                 <button>Edit Country Info</button>

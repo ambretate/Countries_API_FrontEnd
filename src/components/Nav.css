@@ -6,7 +6,6 @@ nav {
   background-color: #bfbda3;
   height: 60px;
   font-size: 1.5rem;
-  text-decoration: none;
   text-align: center;
   text-transform: uppercase;
 }
@@ -15,7 +14,8 @@ nav {
 .navlink:link,
 .navlink:visited {
   padding: 10px 0;
-  color: #1c2621;
+  
+  text-decoration: none;
 }
 
 .navlink:hover {
