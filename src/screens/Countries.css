@@ -4,14 +4,7 @@
   padding-right: 5%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  grid-gap: 35px;
-}
-
-@media screen and (max-width: 767px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 5px;
-  }
+  grid-gap: 45px;
 }
 
 .opacity {
@@ -20,6 +13,8 @@
 
 .opacity:hover {
   opacity: 1;
+  transform: scale(1.05);
+  font-size: 1.25rem;
 }
 
 .flag,
@@ -37,11 +32,25 @@
 }
 
 .flag:hover {
-  transform: scale(1.05);
   color: #d97652;
-  font-size: 1.25rem;
+}
+
+img {
+  box-shadow: 1px 1px 0px #bfbda3,
+                2px 2px 0px #bfbda3,
+                3px 3px 0px #bfbda3,
+                4px 4px 0px #bfbda3,
+                5px 5px 0px #bfbda3,
+                6px 6px 0px #bfbda3;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 5px;
+  }
 }

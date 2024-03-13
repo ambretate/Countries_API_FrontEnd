@@ -1,15 +1,22 @@
 .country-detail {
-    margin: auto;
-    width: 50%;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 0;
-    color: #1c2621;
-    text-align: center;
-  }
-  
-  .country-detail-name {
-    font-size: 3rem;
-    font-weight: 600;
-    color: #6e7346;
-  }
+  margin: auto;
+  width: 50%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #1c2621;
+  text-align: center;
+}
+
+.country-detail-name {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #6e7346;
+}
+
+.country-detail-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 0 auto;
+}

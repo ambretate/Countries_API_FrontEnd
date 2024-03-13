@@ -23,7 +23,7 @@ function Home() {
       </p>
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/World_Map_%28political%29.svg/2880px-World_Map_%28political%29.svg.png"
-        width="800px"
+        className="responsive"
       />
     </div>
   );

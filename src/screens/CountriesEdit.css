@@ -1,4 +1,4 @@
-.country-create {
+.country-edit {
   margin: auto;
   width: 50%;
   font-size: 1.5rem;
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.country-create-title {
+.country-edit-title {
   font-size: 3rem;
   font-weight: 600;
   color: #6e7346;
@@ -30,7 +30,7 @@ input {
 }
 
 @media screen and (max-width: 767px) {
-  .country-create {
+  .country-edit {
     width: 80%;
     font-size: 0.75rem;
     margin-bottom: 0;

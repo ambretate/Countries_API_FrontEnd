@@ -4,3 +4,26 @@ body  {
   margin: 0 auto;
   background-color: #F2F0D5;
 }
+
+button {
+  font-size:large;
+  font-weight: 300;
+  color: #F2F0D5;
+  background-color: #6e7346;
+  border: 2px solid #6e7346;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 0px #bfbda3,
+                2px 2px 0px #bfbda3,
+                3px 3px 0px #bfbda3,
+                4px 4px 0px #bfbda3,
+                5px 5px 0px #bfbda3,
+                6px 6px 0px #bfbda3;
+}
+
+button:hover {
+  color: #F2F0D5;
+  background-color: #d97652;
+  border: 2px solid #d97652;
+}
