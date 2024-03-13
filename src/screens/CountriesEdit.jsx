@@ -45,7 +45,7 @@ function CountriesEdit() {
 
   return (
     <div className="country-edit">
-      <h1 className="country-edit-title">Update a country</h1>
+      <h1 className="country-edit-title">Update a Country</h1>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
